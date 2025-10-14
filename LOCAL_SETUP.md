@@ -38,6 +38,18 @@ Create a `.env` file in the root directory if needed:
 ```
 
 ### 3. Run the Development Server
+
+**For Windows (Command Prompt):**
+```cmd
+set NODE_ENV=development && npm run dev
+```
+
+**For Windows (PowerShell):**
+```powershell
+$env:NODE_ENV="development"; npm run dev
+```
+
+**For Mac/Linux:**
 ```bash
 npm run dev
 ```
@@ -46,21 +58,104 @@ The website will start at: **http://localhost:5000**
 
 ## Available Commands
 
+### Development
 ```bash
-# Start development server
-npm run dev
+# Windows (Command Prompt)
+set NODE_ENV=development && npm run dev
 
-# Build for production
+# Windows (PowerShell)
+$env:NODE_ENV="development"; npm run dev
+
+# Mac/Linux
+npm run dev
+```
+
+### Production Build and Run
+```bash
+# First, build the project
 npm run build
 
-# Start production server
+# Then start the production server
 npm start
+```
 
+### Other Commands
+```bash
 # Type checking
 npm run check
 
 # Database migration (if using database)
 npm run db:push
+```
+
+## Important: Development vs Production
+
+### Development Mode (for local coding)
+- Uses `npm run dev` 
+- Hot reload enabled - changes appear instantly
+- **No build step required**
+- Faster for development
+
+### Production Mode (for deployment)
+- Requires `npm run build` first
+- Uses `npm start`
+- Optimized and faster
+- **Build step required before running**
+
+## Troubleshooting
+
+### Error: "Could not find the build directory"
+This means you're running in production mode without building first. Solutions:
+
+**Option 1: Run in development mode (recommended for local work)**
+```cmd
+# Windows Command Prompt
+set NODE_ENV=development && npm run dev
+
+# Windows PowerShell
+$env:NODE_ENV="development"; npm run dev
+
+# Mac/Linux
+npm run dev
+```
+
+**Option 2: Build for production mode**
+```bash
+npm run build
+npm start
+```
+
+### Port Already in Use
+If port 5000 is busy:
+```bash
+# Windows CMD
+set PORT=3000 && set NODE_ENV=development && npm run dev
+
+# Windows PowerShell
+$env:PORT=3000; $env:NODE_ENV="development"; npm run dev
+
+# Mac/Linux
+PORT=3000 npm run dev
+```
+
+### Dependencies Issues
+If you get dependency errors:
+```bash
+# Clear node_modules and reinstall
+rmdir /s /q node_modules     # Windows CMD
+del package-lock.json        # Windows CMD
+
+# Or on Mac/Linux
+rm -rf node_modules package-lock.json
+
+# Then reinstall
+npm install
+```
+
+### TypeScript Errors
+Run type checking:
+```bash
+npm run check
 ```
 
 ## Project Structure
@@ -73,44 +168,29 @@ npm run db:push
 │   │   └── lib/        # Utilities
 │   └── index.html      # Entry HTML
 ├── server/              # Backend Express server
+│   ├── public/         # Built files (after npm run build)
+│   └── vite.ts         # Vite dev/production server
 ├── shared/              # Shared types/schemas
 ├── package.json         # Dependencies
 └── vite.config.ts      # Vite configuration
 ```
 
-## Troubleshooting
+## Quick Start Summary
 
-### Port Already in Use
-If port 5000 is busy, the server will automatically use another port or you can set:
-```bash
-PORT=3000 npm run dev
-```
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### Dependencies Issues
-If you get dependency errors:
-```bash
-# Clear node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
+2. **Run development server:**
+   ```cmd
+   set NODE_ENV=development && npm run dev    # Windows CMD
+   ```
+   ```powershell
+   $env:NODE_ENV="development"; npm run dev    # Windows PowerShell
+   ```
 
-### TypeScript Errors
-Run type checking:
-```bash
-npm run check
-```
-
-## Building for Production
-
-```bash
-# Build the project
-npm run build
-
-# Run production server
-npm start
-```
-
-The production build will be optimized and ready to deploy.
+3. **Open browser:** http://localhost:5000
 
 ## Browser Compatibility
 
@@ -123,9 +203,12 @@ The production build will be optimized and ready to deploy.
 - Hot Module Replacement (HMR) is enabled - changes appear instantly
 - Open DevTools to see React components
 - Check console for any errors or warnings
+- Use development mode for coding (`npm run dev`)
+- Only use production mode for final testing before deployment
 
 ## Need Help?
 
 - Check the terminal for error messages
 - Make sure all dependencies installed successfully
 - Verify Node.js version: `node --version` (should be 20+)
+- Ensure you're using `npm run dev` for development (not `npm start`)
