@@ -1,0 +1,34 @@
+{
+  "name": "Material",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Material title"
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject area"
+    },
+    "class_level": {
+      "type": "string",
+      "description": "Class level"
+    },
+    "description": {
+      "type": "string"
+    },
+    "file_url": {
+      "type": "string",
+      "description": "Link to the material file"
+    },
+    "upload_date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "title",
+    "subject",
+    "file_url"
+  ]
+}

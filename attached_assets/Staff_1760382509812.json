@@ -1,0 +1,32 @@
+{
+  "name": "Staff",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "description": "Staff member full name"
+    },
+    "position": {
+      "type": "string",
+      "description": "Job position"
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject taught (if teacher)"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "full_name",
+    "position"
+  ]
+}

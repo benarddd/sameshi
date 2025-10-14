@@ -1,0 +1,33 @@
+{
+  "name": "Announcement",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Announcement title"
+    },
+    "content": {
+      "type": "string",
+      "description": "Announcement content"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "general",
+        "urgent",
+        "event",
+        "academic"
+      ],
+      "default": "general"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "title",
+    "content",
+    "date"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Club",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Club name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Club description"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "sports",
+        "arts",
+        "science",
+        "technology",
+        "cultural",
+        "debate"
+      ],
+      "description": "Club category"
+    },
+    "meeting_schedule": {
+      "type": "string",
+      "description": "When the club meets"
+    },
+    "location": {
+      "type": "string",
+      "description": "Meeting location"
+    },
+    "coordinator": {
+      "type": "string",
+      "description": "Club coordinator name"
+    },
+    "member_count": {
+      "type": "number",
+      "description": "Number of active members"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Club image or logo"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "category"
+  ]
+}

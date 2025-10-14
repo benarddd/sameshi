@@ -1,0 +1,37 @@
+{
+  "name": "Event",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "academic",
+        "cultural",
+        "sports",
+        "meeting",
+        "holiday"
+      ],
+      "default": "academic"
+    }
+  },
+  "required": [
+    "title",
+    "date"
+  ]
+}

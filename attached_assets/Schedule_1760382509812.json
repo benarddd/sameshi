@@ -1,0 +1,48 @@
+{
+  "name": "Schedule",
+  "type": "object",
+  "properties": {
+    "day": {
+      "type": "string",
+      "enum": [
+        "E Hënë",
+        "E Martë",
+        "E Mërkurë",
+        "E Enjte",
+        "E Premte"
+      ],
+      "description": "Day of the week"
+    },
+    "class_name": {
+      "type": "string",
+      "description": "Class name"
+    },
+    "subject": {
+      "type": "string",
+      "description": "Subject name"
+    },
+    "time_start": {
+      "type": "string",
+      "description": "Start time"
+    },
+    "time_end": {
+      "type": "string",
+      "description": "End time"
+    },
+    "teacher": {
+      "type": "string",
+      "description": "Teacher name"
+    },
+    "room": {
+      "type": "string",
+      "description": "Room number"
+    }
+  },
+  "required": [
+    "day",
+    "class_name",
+    "subject",
+    "time_start",
+    "time_end"
+  ]
+}
