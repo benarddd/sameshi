@@ -470,20 +470,15 @@ export default function Layout({ children }: { children: ReactNode }) {
               <h3 className={`text-lg font-semibold ${theme === "dark" ? "text-white" : "text-gray-900"} mb-4`}>Kontakt</h3>
               <ul className={`space-y-2 text-sm ${theme === "dark" ? "text-gray-400" : "text-gray-600"}`}>
                 <li>Rruga "Abdulla Keta", Tiranë</li>
-                <li className="hover:text-cyan-400 transition-colors cursor-pointer">Tel: +355 4 123 4567</li>
-                <li className="hover:text-cyan-400 transition-colors cursor-pointer">Email: info@gjimnazi-keta.edu.al</li>
+                <li className="hover:text-cyan-400 transition-colors cursor-pointer">Email: abdullaketa@yahoo.com</li>
               </ul>
             </motion.div>
           </div>
           
           <div className={`border-t ${theme === "dark" ? "border-gray-800/50" : "border-gray-200"} pt-8 flex flex-col md:flex-row justify-between items-center gap-4`}>
             <p className={`${theme === "dark" ? "text-gray-500" : "text-gray-600"} text-sm`}>
-              © 2025 Gjimnazi Abdulla Keta. Të gjitha të drejtat e rezervuara.
+              © 2025 Gjimnazi Abdulla Keta. Website-i zyrtar i gjimnazit Abdulla Keta, imagjinuar, programuar dhe sjellë në jetë nga nx. Benard Pernezha. (ME ESMEN )
             </p>
-            <div className="flex gap-6">
-              <Link href="#" className={`${theme === "dark" ? "text-gray-500" : "text-gray-600"} hover:text-cyan-400 text-sm transition-colors`}>Privatësia</Link>
-              <Link href="#" className={`${theme === "dark" ? "text-gray-500" : "text-gray-600"} hover:text-cyan-400 text-sm transition-colors`}>Kushtet</Link>
-            </div>
           </div>
         </div>
       </footer>
