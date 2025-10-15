@@ -421,9 +421,9 @@ export default function Layout({ children }: { children: ReactNode }) {
               {/* Social Media */}
               <div className="flex gap-3 mt-6">
                 {[
-                  { icon: "📘", label: "Facebook", href: "#" },
-                  { icon: "📷", label: "Instagram", href: "#" },
-                  { icon: "▶️", label: "YouTube", href: "#" }
+                  
+                  { icon: "📷", label: "Instagram", href: "https://www.instagram.com/gjimnaziabdullaketa/" },
+                  { icon: "▶️", label: "Facebook", href: "#" }
                 ].map((social, index) => (
                   <motion.a
                     key={index}
