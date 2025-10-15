@@ -242,9 +242,9 @@ function RegularHomePage({ showModal, setShowModal }: { showModal: boolean; setS
           <div className="mb-24">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Informacion i <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Përditshë</span>
+                Informacion i <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Përditshëm</span>
               </h2>
-              <p className="text-gray-400 text-lg">Qëndro i informuar me ngjarjet dhe lajmet e fundit</p>
+              <p className="text-gray-400 text-lg">rwel</p>
             </div>
             
             <div className="grid lg:grid-cols-2 gap-8">
