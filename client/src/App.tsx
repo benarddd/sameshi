@@ -24,7 +24,7 @@ import MaturaShtetrore from "@/pages/MaturaShtetrore";
 import Portali from "@/pages/Portali";
 import Rregullorja from "@/pages/Rregullorja";
 import Senati from "@/pages/Senati";
-// import Pavaresia28Nentor from "@/pages/Pavaresia28Nentor";
+import Pavaresia28Nentor from "@/pages/Pavaresia28Nentor";
 
 function Router() {
   return (
@@ -47,7 +47,7 @@ function Router() {
       <Route path="/Portali" component={Portali} />
       <Route path="/Rregullorja" component={Rregullorja} />
       <Route path="/Senati" component={Senati} />
-      {/* <Route path="/Pavaresia28Nentor" component={Pavaresia28Nentor} /> */}
+      <Route path="/Pavaresia28Nentor" component={Pavaresia28Nentor} />
       <Route component={NotFound} />
     </Switch>
   );
