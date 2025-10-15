@@ -304,7 +304,7 @@ export default function Ballina() {
     const day = today.getDate();
     
     // Show Independence Day theme on November 28-29
-    if (month === 10 && (day === 28 || day === 29)) {
+    if (month === 10 && (day === 16 || day === 29)) {
       setIsIndependenceDay(true);
     }
 
