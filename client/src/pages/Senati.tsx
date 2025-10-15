@@ -23,12 +23,11 @@ interface Meeting {
 
 export default function Senati() {
   const senateMembers: SenateMember[] = [
-    { name: "Andi Malaj", role: "Kryetar i Senatit", class: "12A", email: "andi.malaj@student.gjimnazi-keta.edu.al" },
-    { name: "Sara Hoxha", role: "Zëvendës Kryetar", class: "12B", email: "sara.hoxha@student.gjimnazi-keta.edu.al" },
-    { name: "Ergis Duka", role: "Sekretar", class: "11A", email: "ergis.duka@student.gjimnazi-keta.edu.al" },
-    { name: "Elisa Marku", role: "Anëtare", class: "11C", email: "elisa.marku@student.gjimnazi-keta.edu.al" },
-    { name: "Klajdi Shala", role: "Anëtar", class: "10B", email: "klajdi.shala@student.gjimnazi-keta.edu.al" },
-    { name: "Anxhela Kola", role: "Anëtare", class: "10A", email: "anxhela.kola@student.gjimnazi-keta.edu.al" },
+    { name: "x", role: "Kryetar i Senatit", class: "12A", email: "" },
+    { name: "x", role: "Zëvendës Kryetar", class: "12B", email: "" },
+    { name: "x", role: "Anëtar", class: "10C", email: "" },
+    { name: "x", role: "Anëtar", class: "10B", email: "" },
+    { name: "x", role: "Anëtar", class: "10A", email: "" },
   ];
 
   const responsibilities: Responsibility[] = [
