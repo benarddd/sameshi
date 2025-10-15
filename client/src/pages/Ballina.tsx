@@ -311,7 +311,7 @@ export default function Ballina() {
     // Show modal after 1 second if there's an urgent announcement (only on regular days)
     if (!isIndependenceDay) {
       const timer = setTimeout(() => {
-        const hasUrgentAnnouncement = false; // Change to true if you want to show urgent announcements
+        const hasUrgentAnnouncement = true; // Change to true if you want to show urgent announcements
         if (hasUrgentAnnouncement) {
           setShowModal(true);
         }
