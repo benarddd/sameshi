@@ -25,7 +25,7 @@ export default function ClubDetail() {
   const id = parseInt(urlParams.get('id') || '0');
   
   const clubs: Club[] = [
-    { 
+    /**{ 
       id: 1, 
       name: "Klubi i Futbollit", 
       description: "Trajnime dhe ndeshje të rregullta, pjesëmarrje në turne lokale dhe kombëtare", 
@@ -42,26 +42,24 @@ export default function ClubDetail() {
         "5 anëtarë të përzgjedhur në ekipet kombëtare rinore"
       ],
       requirements: "Njohuri bazë të futbollit, dëshirë për të mësuar, angazhim dhe disiplinë"
-    },
+    },**/
     { 
       id: 2, 
-      name: "Klubi i Arteve", 
+      name: "Klubi Art dhe Zeje", 
       description: "Pikturë, skulpturë dhe art digjital. Organizimi i ekspozitave dhe konkurseve artistike", 
       fullDescription: "Klubi i Arteve është një hapësirë ku kreativiteti lulëzon. Ne eksplorojmë forma të ndryshme artistike, nga piktura tradicionale deri tek arti digjital modern.\n\nGjatë vitit, organizojmë ekspozita të rregullta ku nxënësit shfaqin punët e tyre. Gjithashtu, marrim pjesë në konkurse kombëtare të arteve, ku anëtarët tanë kanë fituar çmime të shumta.\n\nNëse je i apasionuar pas artit dhe dëshiron të zhvillosh talentin tënd, ky është vendi i duhur për ty!", 
       category: "arts", 
-      meeting_schedule: "E Martë, E Enjte 14:00-16:00", 
+      meeting_schedule: "Ne proces", 
       location: "Salla e Arteve", 
-      coordinator: "Prof. Mirela Shehu", 
-      coordinatorEmail: "m.shehu@gjimnazi-keta.edu.al",
-      member_count: 18,
+      coordinator: "Ms. Vetetima Prendi", 
+      coordinatorEmail: "xy",
+      member_count: 0,
       achievements: [
-        "Vendi i 2-të në Konkursit Kombëtar të Arteve 2024",
-        "3 ekspozita të suksesshme gjatë vitit",
-        "Bashkëpunim me galeritë lokale"
+        "Ne proces"
       ],
-      requirements: "Dashuri për artin, dëshirë për të eksperimentuar, kreativitet"
+      requirements: "Ne proces"
     },
-    { 
+    /**{ 
       id: 3, 
       name: "Klubi i Shkencave", 
       description: "Eksperimente shkencore, projekte kërkimore dhe pjesëmarrje në panairin shkencor", 
@@ -78,8 +76,8 @@ export default function ClubDetail() {
         "Bashkëpunim me universitete lokale"
       ],
       requirements: "Kuriozitet shkencor, aftësi analitike, dëshirë për kërkim"
-    },
-    { 
+    },**/
+     /**{ 
       id: 4, 
       name: "Klubi i Teknologjisë", 
       description: "Programim, robotikë dhe zhvillim i projekteve teknologjike novatore", 
@@ -96,7 +94,7 @@ export default function ClubDetail() {
         "Partneritet me kompani teknologjike"
       ],
       requirements: "Interes për teknologjinë, aftësi bazë kompjuterike (jo të domosdoshme), kreativitet"
-    },
+    },**/
   ];
 
   const club = clubs.find(c => c.id === id);

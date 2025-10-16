@@ -57,13 +57,12 @@ export default function UrgentNotificationModal({ isOpen, onClose }: UrgentNotif
                   <h3 className="text-2xl font-bold text-white mb-2">
                     Njoftim i Rëndësishëm
                   </h3>
-                  <p className="text-gray-300 text-sm mb-4">
-                    Semestri i dytë fillon më 15 Janar 2025. Të gjithë nxënësit duhet të jenë të pranishëm në orën 08:00. 
-                    Ju lutemi të sillni materialet e nevojshme shkollore dhe të jeni të përgatitur për një semestër të suksesshëm.
+                  <p className="text-gray-300 text-sm mb-4">🚀 Ne jemi live!
+                  Gjimnazi “Abdulla Keta” prezanton faqen e tij zyrtare — një hap drejt së ardhmes digjitale të shkollës sonë.
+                  Zbuloni lajmet, eventet dhe shumë më tepër në një vend të vetëm.
+                  💻 Krijuar me pasion nga Benard Pernezha.
                   </p>
-                  <p className="text-xs text-gray-400">
-                    Publikuar më 10 Janar 2025
-                  </p>
+
                 </div>
               </div>
               

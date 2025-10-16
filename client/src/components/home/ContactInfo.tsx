@@ -13,25 +13,19 @@ export default function ContactInfo() {
     {
       icon: MapPin,
       title: "Adresa",
-      content: "Rruga \"Abdulla Keta\", Nr. 25\nTiranë, Shqipëri",
+      content: "Rruga Bashkim Kodra, Tiranë, Albania, Nr. 25\nTiranë, Shqipëri",
       color: "from-blue-500/10 to-cyan-500/10"
-    },
-    {
-      icon: Phone,
-      title: "Telefon",
-      content: "+355 4 123 4567\n+355 69 123 4567",
-      color: "from-green-500/10 to-teal-500/10"
     },
     {
       icon: Mail,
       title: "Email",
-      content: "info@gjimnazi-keta.edu.al\nsekretaria@gjimnazi-keta.edu.al",
+      content: "abdullaketa@yahoo.com",
       color: "from-purple-500/10 to-pink-500/10"
     },
     {
       icon: Clock,
-      title: "Orari i Punës",
-      content: "E Hënë - E Premte\n08:00 - 16:00",
+      title: "Orari",
+      content: "E Hënë - E Premte\n08:00 - 14:00",
       color: "from-orange-500/10 to-red-500/10"
     }
   ];

@@ -180,7 +180,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link href={createPageUrl("Ballina")} className="flex items-center gap-3 group">
+            <Link href={createPageUrl("Faqja Kryesore")} className="flex items-center gap-3 group">
               <motion.div 
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 400 }}
@@ -477,7 +477,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           
           <div className={`border-t ${theme === "dark" ? "border-gray-800/50" : "border-gray-200"} pt-8 flex flex-col md:flex-row justify-between items-center gap-4`}>
             <p className={`${theme === "dark" ? "text-gray-500" : "text-gray-600"} text-sm`}>
-              © 2025 Gjimnazi Abdulla Keta. Website-i zyrtar i gjimnazit Abdulla Keta, imagjinuar, programuar dhe sjellë në jetë nga nx. Benard Pernezha. (ME ESMEN )
+              © 2025 Gjimnazi Abdulla Keta. Website-i zyrtar i gjimnazit Abdulla Keta, imagjinuar, programuar dhe sjellë në jetë nga nx. Benard Pernezha.
             </p>
           </div>
         </div>

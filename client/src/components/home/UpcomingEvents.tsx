@@ -6,30 +6,30 @@ import { motion } from "framer-motion";
 
 export default function UpcomingEvents() {
   const events = [
-    { 
+    /**{ 
       id: 1, 
       title: "Konkursi Kombëtar i Matematikës", 
       date: "2025-01-25", 
       time: "09:00", 
       location: "Salla Kryesore",
       type: "academic" as const
-    },
+    },**/
     { 
       id: 2, 
-      title: "Ekspozita e Arteve", 
+      title: "Tetori Roze", 
       date: "2025-02-05", 
       time: "14:00", 
-      location: "Salla e Arteve",
+      location: "Aktivitet",
       type: "cultural" as const
     },
-    { 
+    /**{ 
       id: 3, 
       title: "Turne Futbolli", 
       date: "2025-02-12", 
       time: "10:00", 
       location: "Fusha Sportive",
       type: "sports" as const
-    },
+    },**/
   ];
 
   const getEventColor = (type: "academic" | "cultural" | "sports") => {
@@ -64,7 +64,6 @@ export default function UpcomingEvents() {
             </motion.div>
             <div>
               <h2 className="text-2xl font-bold text-white">Ngjarje të Ardhshme</h2>
-              <p className="text-sm text-gray-400">Aktivitete dhe evenimente</p>
             </div>
           </div>
           <Link 

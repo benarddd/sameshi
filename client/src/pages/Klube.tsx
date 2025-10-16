@@ -28,10 +28,10 @@ export default function Klube() {
   const [filterCategory, setFilterCategory] = useState<string>("all");
   
   const clubs: Club[] = [
-    { id: 1, name: "Klubi i Futbollit", description: "Trajnime dhe ndeshje të rregullta, pjesëmarrje në turne lokale dhe kombëtare", category: "sports", meeting_schedule: "E Hënë, E Mërkurë, E Premte 15:00-17:00", location: "Fusha Sportive", coordinator: "Prof. Alban Gashi", member_count: 25 },
-    { id: 2, name: "Klubi i Arteve", description: "Pikturë, skulpturë dhe art digjital. Organizimi i ekspozitave dhe konkurseve artistike", category: "arts", meeting_schedule: "E Martë, E Enjte 14:00-16:00", location: "Salla e Arteve", coordinator: "Prof. Mirela Shehu", member_count: 18 },
-    { id: 3, name: "Klubi i Shkencave", description: "Eksperimente shkencore, projekte kërkimore dhe pjesëmarrje në panairin shkencor", category: "science", meeting_schedule: "E Mërkurë 15:00-17:00", location: "Laboratori i Shkencave", coordinator: "Prof. Elira Mara", member_count: 22 },
-    { id: 4, name: "Klubi i Teknologjisë", description: "Programim, robotikë dhe zhvillim i projekteve teknologjike novatore", category: "technology", meeting_schedule: "E Premte 15:00-18:00", location: "Laboratori i Kompjuterit", coordinator: "Prof. Arben Hoxha", member_count: 30 },
+    //{ id: 1, name: "Klubi i Futbollit", description: "Trajnime dhe ndeshje të rregullta, pjesëmarrje në turne lokale dhe kombëtare", category: "sports", meeting_schedule: "E Hënë, E Mërkurë, E Premte 15:00-17:00", location: "Fusha Sportive", coordinator: "Prof. Alban Gashi", member_count: 25 },
+    { id: 2, name: "Klubi Art dhe Zeje", description: "Piktura dhe arte. Organizimi i ekspozitave dhe konkurseve artistike", category: "arts", meeting_schedule: "Ne proces ", location: "Salla e Arteve", coordinator: "Ms. Vetetima Prendi", member_count: 0 },
+    //{ id: 3, name: "Klubi i Shkencave", description: "Eksperimente shkencore, projekte kërkimore dhe pjesëmarrje në panairin shkencor", category: "science", meeting_schedule: "E Mërkurë 15:00-17:00", location: "Laboratori i Shkencave", coordinator: "Prof. Elira Mara", member_count: 22 },
+    //{ id: 4, name: "Klubi i Teknologjisë", description: "Programim, robotikë dhe zhvillim i projekteve teknologjike novatore", category: "technology", meeting_schedule: "E Premte 15:00-18:00", location: "Laboratori i Kompjuterit", coordinator: "Prof. Arben Hoxha", member_count: 30 },
   ];
 
   const filteredClubs = filterCategory === "all" 

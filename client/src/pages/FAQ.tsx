@@ -11,25 +11,15 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs: FAQItem[] = [
-    {
-      question: "Si mund të regjistrohem në shkollë?",
-      answer: "Për të regjistruar një nxënës në shkollën tonë, duhet të paraqiteni fizikisht në zyrën e sekretarisë me dokumentet e nevojshme: certifikatë lindjes, kartelë shëndetësore, vërtetim nga shkolla e mëparshme, dhe fotografi. Periudha e regjistrimit është zakonisht në muajin Qershor për vitin e ardhshëm shkollor."
-    },
+    
     {
       question: "Cilat janë orët e punës së sekretarisë?",
-      answer: "Sekretaria e shkollës është e hapur nga e Hëna në të Premte, nga ora 08:00 deri në 16:00. Të Shtunën jemi të hapur nga ora 09:00 deri në 13:00. Të Dielën shkolla është e mbyllur."
+      answer: "Ne proces"
     },
-    {
-      question: "A ofron shkolla transport për nxënësit?",
-      answer: "Po, shkolla ofron shërbim transporti për nxënësit që jetojnë në zona të caktuara. Për më shumë informacion rreth rutave dhe kostos, ju lutemi kontaktoni zyrën administrative."
-    },
-    {
-      question: "Si mund të marr informacion për notat e fëmijës tim?",
-      answer: "Prindërit mund të aksesojnë notat dhe vlerësimet e fëmijëve të tyre nëpërmjet portalit tonë online. Ju lutemi të kontaktoni sekretarinë për të marrë kredencialet tuaja të hyrjes. Gjithashtu, organizojmë takime prindër-mësues çdo tremujor."
-    },
+
     {
       question: "A ka mundësi për aktivitete jashtëshkollore?",
-      answer: "Po, absolutisht! Shkolla jonë ofron një gamë të gjerë klubesh dhe aktivitetesh jashtëshkollore, duke përfshirë klube sportive, artistike, shkencore, dhe teknologjike. Nxënësit mund të regjistrohen në fillim të çdo semestri."
+      answer: "Po, absolutisht! Shkolla jonë ofron një gamë të gjerë klubesh dhe aktivitetesh jashtëshkollore, duke përfshirë klube sportive, artistike, shkencore, dhe teknologjike. Nxenesi dhe prindi duhet te firmos deklaraten qe eshte dakord  qe femija te jete pjesmarres"
     },
     {
       question: "Si funksionon sistemi i vlerësimit?",
@@ -37,19 +27,16 @@ export default function FAQ() {
     },
     {
       question: "Cilat janë kërkesat për Maturën Shtetërore?",
-      answer: "Për të marrë pjesë në Maturën Shtetërore, nxënësit duhet të kenë përfunduar me sukses të gjitha lëndët e detyrueshme të klasës së 12-të. Provimi përfshin tre lëndë të detyrueshme (Gjuhë Shqipe, Matematikë, dhe Gjuhë e Huaj) plus dy lëndë me zgjedhje. Regjistrimi zakonisht fillon në Janar."
+      answer: "Për të marrë pjesë në Maturën Shtetërore, nxënësit duhet të kenë përfunduar me sukses të gjitha lëndët e detyrueshme të klasës së 12-të. Provimi përfshin tre lëndë të detyrueshme (Gjuhë Shqipe, Matematikë, dhe Gjuhë e Huaj) plus nje lëndë me zgjedhje. Regjistrimi zakonisht fillon në Janar."
     },
-    {
-      question: "A ofron shkolla mbështetje për nxënësit me nevoja të veçanta?",
-      answer: "Po, shkolla jonë është e angazhuar për të siguruar një mjedis gjithëpërfshirës. Kemi një ekip të specializuar që punon me nxënësit me nevoja të veçanta për të garantuar që ata marrin mbështetjen dhe aksesin e nevojshëm për sukses akademik."
-    },
+    
     {
       question: "Si mund të kontaktoj një mësues specifik?",
-      answer: "Mund të kontaktoni mësuesit përmes email-it zyrtar të shkollës ose duke kërkuar një takim nëpërmjet sekretarisë. Gjithashtu, çdo mësues ka orë zyrtare konsultimi që publikohen në fillim të çdo semestri."
+      answer: "Mund të kontaktoni mësuesit përmes email-it zyrtar të shkollës ose duke kërkuar një takim nëpërmjet sekretarisë."
     },
     {
       question: "Cilat janë rregullat për veshjen në shkollë?",
-      answer: "Shkolla jonë ka një kod të veshjes që kërkon veshje të pastër, të përshtatshme dhe profesionale. Nuk lejohen veshje të shkurtra, të hapura, ose me mesazhe të papërshtatshme. Detaje të plota për kodin e veshjes gjenden në rregulloren e shkollës."
+      answer: "Shkolla jonë ka një kod të veshjes që kërkon veshje të pastër, të përshtatshme dhe profesionale. Kodi i veshjes mund ta gjeni ketu ne faqen e shkolles"
     }
   ];
 
