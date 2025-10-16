@@ -189,9 +189,9 @@ function IndependenceDayContent() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-red-600/20 via-yellow-600/20 to-red-600/20 rounded-3xl blur-xl"></div>
             <div className="relative bg-black/50 backdrop-blur-2xl border border-red-500/20 rounded-3xl p-12 text-center">
-              <div className="text-6xl text-yellow-400 mb-4">"</div>
+              <div className="text-6xl text-yellow-400 mb-4"></div>
               <p className="text-2xl md:text-3xl text-white font-light italic mb-6 leading-relaxed">
-                Shqipëria është e lirë dhe e pavarur!
+                “Ne nuk duam luftë me asnjë, por duam të jemi zot të shtëpisë sonë.”
               </p>
               <div className="flex items-center justify-center gap-3">
                 <div className="h-px w-12 bg-gradient-to-r from-transparent to-red-500"></div>
@@ -212,7 +212,7 @@ function IndependenceDayContent() {
           <div className="inline-flex items-center gap-3 bg-gradient-to-r from-red-600/20 to-yellow-600/20 border border-red-500/30 rounded-2xl px-8 py-4">
             <Calendar className="w-6 h-6 text-yellow-400" />
             <p className="text-lg text-gray-200">
-              <span className="font-bold text-red-400">Gjimnazi Abdulla Keta</span> uron të gjithë 
+              <span className="font-bold text-red-400">Gjimnazi Abdulla Keta</span> uron të gjithë shqiptarët
               <span className="font-bold text-yellow-400"> Ditën e Pavarësisë!</span>
             </p>
           </div>
@@ -304,7 +304,7 @@ export default function Ballina() {
     const day = today.getDate();
     
     // Show Independence Day theme on November 28-29
-    if (month === 10 && (day === 16 || day === 29)) {
+    if (month === 10 && (day === 28 || day === 29)) {
       setIsIndependenceDay(true);
     }
 

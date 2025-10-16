@@ -28,13 +28,13 @@ export default function NewsDetail() {
   const announcements: Announcement[] = [
     {
       id: 1,
-      title: "Fillimi i Semestrit të Ri",
-      content: "Semestri i dytë fillon më 15 Janar. Të gjithë nxënësit duhet të jenë të pranishëm në orën 08:00. Ju lutemi të sillni materialet e nevojshme shkollore dhe të jeni të përgatitur për një semestër të suksesshëm.\n\nJu lutemi të siguroheni që të keni të gjitha materialet e nevojshme: libra, fletore, lapsa dhe mjete të tjera shkollore. Orari i ri do të shpërndahet në ditën e parë të semestrit.\n\nMësuesit do të jenë në dispozicion për pyetje dhe sqarime gjatë gjithë javës së parë. Ju inkurajojmë të filloni semestrin me entuziazëm dhe përkushtim të plotë.",
+      title: "WEBSITE i shkolles sone",
+      content: "emi të lumtur të njoftojmë se Gjimnazi “Abdulla Keta” tashmë ka faqen e tij zyrtare në internet!Ky website ofron informacion për shkollën, aktivitetet, njoftimet dhe arritjet e nxënësve tanë.Qëllimi ynë është të krijojmë një hapësirë moderne dhe të hapur për komunikim, transparencë dhe bashkëpunim me komunitetin shkollor.",
       category: "academic",
       date: "2025-01-10",
       attachments: [
-        { name: "Orari i Ri - Semestri 2", type: "PDF", size: "1.2 MB" },
-        { name: "Lista e Materialeve", type: "PDF", size: "0.8 MB" }
+        //{ name: "Orari i Ri - Semestri 2", type: "PDF", size: "1.2 MB" },
+        //{ name: "Lista e Materialeve", type: "PDF", size: "0.8 MB" }
       ]
     },
     {

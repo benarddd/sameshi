@@ -12,7 +12,7 @@ export default function NotFound() {
           </div>
 
           <p className="mt-4 text-sm text-gray-600">
-            E rregullon Benardi tani mos u mrz
+            Na kontaktoni per te raportuar problemin tuaj, faleminderit! 
           </p>
         </CardContent>
       </Card>

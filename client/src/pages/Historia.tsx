@@ -15,19 +15,19 @@ interface Achievement {
 
 export default function Historia() {
   const milestones: Milestone[] = [
-    { year: "1998", title: "Themelimi i Shkollës", description: "Gjimnazi Abdulla Keta u themelua me qëllimin për të ofruar edukim cilësor për të gjithë nxënësit." },
-    { year: "2005", title: "Çmimi i Ekscelencës", description: "Shkolla mori çmimin kombëtar për rezultate të shkëlqyera akademike dhe inovacion në arsim." },
-    { year: "2010", title: "Zgjerimi i Infrastrukturës", description: "U ndërtuan laboratorë të rinj të shkencës dhe teknologjisë, duke rritur kapacitetet edukative." },
-    { year: "2015", title: "Programi Ndërkombëtar", description: "Filloi bashkëpunimi me shkolla partnere në Evropë përmes programeve shkëmbimi studentor." },
+    { year: "1999", title: "Themelimi i Shkollës", description: "Gjimnazi Abdulla Keta u themelua me qëllimin për të ofruar edukim cilësor për të gjithë nxënësit." },
+    { year: "2005", title: "Zgjerimi i Infrastrukturës", description: "U ndërtuan klasa të reja të, duke rritur kapacitetet edukative." },
+    //{ year: "2010", title: "Zgjerimi i Infrastrukturës", description: "U ndërtuan laboratorë të rinj të shkencës dhe teknologjisë, duke rritur kapacitetet edukative." },
+    //{ year: "2015", title: "Programi Ndërkombëtar", description: "Filloi bashkëpunimi me shkolla partnere në Evropë përmes programeve shkëmbimi studentor." },
     { year: "2020", title: "Transformimi Dixhital", description: "Implementimi i platformave digjitale dhe mësimit online, duke modernizuar procesin arsimor." },
-    { year: "2024", title: "25 Vite Ekscelencë", description: "Kremtimi i 25 vjetorit të shkollës me mbi 5000 të diplomuar të suksesshëm." },
+    { year: "2025", title: "26 Vite Ekscelencë", description: "Kremtimi i 26 vjetorit të shkollës me mbi 2500 të diplomuar të suksesshëm." },
   ];
 
   const achievements: Achievement[] = [
-    { icon: Award, value: "50+", label: "Çmime Kombëtare" },
-    { icon: Users, value: "5000+", label: "Të Diplomuar" },
-    { icon: BookOpen, value: "100+", label: "Projekte Kërkimore" },
-    { icon: Globe, value: "15", label: "Partneritete Ndërkombëtare" },
+    //{ icon: Award, value: "50+", label: "Çmime Kombëtare" },
+    { icon: Users, value: "2500+", label: "Të Diplomuar" },
+    //{ icon: BookOpen, value: "100+", label: "Projekte Kërkimore" },
+    //{ icon: Globe, value: "15", label: "Partneritete Ndërkombëtare" },
   ];
 
   return (
@@ -52,7 +52,7 @@ export default function Historia() {
             Historia <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Jonë</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            Një udhëtim 25-vjeçar i përkushtuar ndaj ekscelencës akademike dhe formimit të brezave të rinj.
+            Një udhëtim 26-vjeçar i përkushtuar ndaj ekscelencës akademike dhe formimit të brezave të rinj.
           </p>
         </motion.div>
 
@@ -129,29 +129,7 @@ export default function Historia() {
         </div>
 
         {/* Vision Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-20 bg-gradient-to-br from-cyan-500/10 to-teal-500/10 backdrop-blur-sm rounded-3xl p-12 border border-cyan-500/20"
-        >
-          <div className="text-center max-w-3xl mx-auto">
-            <motion.div
-              animate={{ scale: [1, 1.1, 1] }}
-              transition={{ duration: 3, repeat: Infinity }}
-            >
-              <TrendingUp className="w-16 h-16 text-cyan-400 mx-auto mb-6" />
-            </motion.div>
-            <h2 className="text-3xl font-bold text-white mb-4">Vizioni Ynë</h2>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              Të jemi shkolla më e preferuar në vend, duke formuar individë kritikisht mendues, 
-              të përgjegjshëm shoqërisht, dhe të përgatitur plotësisht për sfidat e së ardhmes. 
-              Ne besojmë në fuqinë transformuese të edukimit dhe angazhohemi të ofrojmë përvojë 
-              akademike që frymëzon, sfidon dhe mundëson çdo nxënës.
-            </p>
-          </div>
-        </motion.div>
+        
       </div>
     </div>
   );

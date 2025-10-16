@@ -16,7 +16,6 @@ export default function Rregullorja() {
         "Çdo nxënës ka të drejtë për një edukim cilësor dhe të barabartë",
         "Nxënësit kanë të drejtë të shprehin mendimin e tyre në mënyrë të respektueshme",
         "Nxënësit duhet të respektojnë mësuesit, stafin dhe bashkënxënësit",
-        "Pjesëmarrja në aktivitetet mësimore është e detyrueshme",
         "Nxënësit kanë të drejtë të ankohen për çështje që lidhen me shkollën"
       ]
     },
@@ -27,7 +26,7 @@ export default function Rregullorja() {
         "Mësimet fillojnë në orën 08:00 dhe përfundojnë në orën 14:00",
         "Vonesë mbi 15 minuta konsiderohet si mungesë",
         "Mungesat duhet të justifikohen brenda 3 ditëve",
-        "Mbi 20% mungesë të pajustifikuara mund të çojnë në vlerësim negativ",
+        "Mbi 40 mungesë të pajustifikuara mund të çojnë në perjashtim",
         "Nxënësit duhet të jenë të pranishëm në të gjitha provimet"
       ]
     },
@@ -37,7 +36,6 @@ export default function Rregullorja() {
       content: [
         "Vlerësimi bëhet me nota nga 4 deri në 10",
         "Nota 5 konsiderohet kalim minimal",
-        "Çdo semestër ka dy periudha vlerësimi",
         "Nota finale përcaktohet nga mesatarja e të gjitha vlerësimeve",
         "Provimi i maturës shtetërore është i detyrueshëm për klasën e 12-të"
       ]
@@ -47,21 +45,10 @@ export default function Rregullorja() {
       title: "Sjellja dhe Disiplina",
       content: [
         "Duhet të respektohet pronë shkollore dhe mjetet mësimore",
-        "Përdorimi i telefonave celularë lejohet vetëm gjatë pushimeve",
+        "Përdorimi i telefonave celularë NUK lejohet ne asnje moment ne ambjentet shkollore",
         "Ndalimi i plotë i dhunës fizike dhe verbale",
         "Respektimi i kodit të veshjes së shkollës",
         "Konsumimi i duhanit dhe substancave të tjera është i ndaluar rreptësisht"
-      ]
-    },
-    {
-      icon: Award,
-      title: "Shpërblimet",
-      content: [
-        "Nxënësit me rezultate të shkëlqyera njëhen publikisht",
-        "Dhënia e çertifikatave për sukses akademik",
-        "Mundësi pjesëmarrje në konkurse kombëtare dhe ndërkombëtare",
-        "Bursa për nxënësit me rezultate të larta",
-        "Njohje për kontribut në aktivitete jashtëshkollore"
       ]
     },
     {
@@ -69,10 +56,9 @@ export default function Rregullorja() {
       title: "Masat Disiplinore",
       content: [
         "Paralajmërim me gojë për shkelje të vogla",
-        "Paralajmërim me shkrim për shkelje të përsëritura",
         "Pezullim i përkohshëm për shkelje serioze",
         "Përjashtim nga shkolla për shkelje të rënda",
-        "Të gjitha masat disiplinore regjistrohen në dosjen e nxënësit"
+        "Të gjitha masat disiplinore ruhen ne sekretari"
       ]
     }
   ];
@@ -178,7 +164,7 @@ export default function Rregullorja() {
             className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-teal-600 hover:from-cyan-600 hover:to-teal-700 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300"
           >
             <BookOpen className="w-5 h-5" />
-            Shkarko Rregulloren (PDF)
+            Ne proces
           </motion.button>
         </motion.div>
       </div>

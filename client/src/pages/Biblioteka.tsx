@@ -27,10 +27,10 @@ export default function Biblioteka() {
   const [filterCategory, setFilterCategory] = useState<string>("all");
   
   const books: Book[] = [
-    { id: 1, title: "Historia e Shqipërisë", author: "Kristo Frashëri", category: "history", description: "Vështrim i plotë historik i Shqipërisë nga lashtësia deri në kohën moderne", pages: 450, language: "Albanian" },
-    { id: 2, title: "Matematika për të Gjithë", author: "Agim Hoxha", category: "textbook", description: "Libër mësimor për matematikën e shkollës së mesme", pages: 320, language: "Albanian" },
-    { id: 3, title: "Letërsia Shqiptare Moderne", author: "Rexhep Qosja", category: "literature", description: "Studim i thellë i letërsisë shqiptare të shekullit 20", pages: 580, language: "Albanian" },
-    { id: 4, title: "Fizika Themelore", author: "Elira Mara", category: "science", description: "Koncepte bazë të fizikës për nxënësit e shkollës së mesme", pages: 280, language: "Albanian" },
+    //{ id: 1, title: "Historia e Shqipërisë", author: "Kristo Frashëri", category: "history", description: "Vështrim i plotë historik i Shqipërisë nga lashtësia deri në kohën moderne", pages: 450, language: "Albanian" },
+    //{ id: 2, title: "Matematika për të Gjithë", author: "Agim Hoxha", category: "textbook", description: "Libër mësimor për matematikën e shkollës së mesme", pages: 320, language: "Albanian" },
+    //{ id: 3, title: "Letërsia Shqiptare Moderne", author: "Rexhep Qosja", category: "literature", description: "Studim i thellë i letërsisë shqiptare të shekullit 20", pages: 580, language: "Albanian" },
+    //{ id: 4, title: "Fizika Themelore", author: "Elira Mara", category: "science", description: "Koncepte bazë të fizikës për nxënësit e shkollës së mesme", pages: 280, language: "Albanian" },
   ];
 
   const filteredBooks = books.filter(book => {
@@ -90,7 +90,7 @@ export default function Biblioteka() {
             Biblioteka <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Digjitale</span>
           </h1>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-            Akses në mijëra libra dhe burime digjitale për studim dhe argëtim.
+            Akses në libra dhe burime digjitale për studim dhe argëtim.
           </p>
         </motion.div>
 
@@ -135,7 +135,7 @@ export default function Biblioteka() {
           <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-2xl p-12 border border-gray-700/50 text-center">
             <BookOpen className="w-16 h-16 text-gray-600 mx-auto mb-4" />
             <h3 className="text-xl text-white font-semibold mb-2">Nuk u gjetën libra</h3>
-            <p className="text-gray-400">Provo të kërkosh diçka tjetër ose ndrysho filtrin</p>
+            <p className="text-gray-400">Publikimi i librave do te filloj se shpejti</p>
           </div>
         ) : (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

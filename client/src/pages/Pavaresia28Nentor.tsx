@@ -68,12 +68,19 @@ export default function Pavaresia28Nentor() {
             <span className="text-red-400 font-semibold">28 Nëntor 1912</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            Dita e{" "}
-            <span className="bg-gradient-to-r from-red-500 via-yellow-400 to-red-500 bg-clip-text text-transparent">
-              Pavarësisë
-            </span>
-          </h1>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight text-center">
+  Gjimnazi{" "}
+  <span className="bg-gradient-to-r from-red-500 via-yellow-400 to-red-500 bg-clip-text text-transparent">
+    Abdulla Keta
+  </span>
+  <div className="text-4xl md:text-6xl mt-2">
+    Dita e{" "}
+    <span className="bg-gradient-to-r from-red-500 via-yellow-400 to-red-500 bg-clip-text text-transparent">
+      Pavarësisë
+    </span>
+  </div>
+</h1>
+
           
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Festojmë me krenari 113 vjet pavarësi të kombit tonë

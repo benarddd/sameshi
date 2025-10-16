@@ -17,7 +17,7 @@ interface NavigationItem {
 }
 
 const navigationItems: NavigationItem[] = [
-  { title: "Ballina", url: createPageUrl("Ballina"), icon: GraduationCap },
+  { title: "Faqja hyrëse", url: createPageUrl("Ballina"), icon: GraduationCap },
   { 
     title: "Rreth Nesh", 
     icon: Info,
@@ -180,7 +180,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link href={createPageUrl("Faqja Kryesore")} className="flex items-center gap-3 group">
+            <Link href={createPageUrl("Ballina")} className="flex items-center gap-3 group">
               <motion.div 
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 400 }}

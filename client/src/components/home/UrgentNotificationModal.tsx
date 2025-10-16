@@ -58,7 +58,7 @@ export default function UrgentNotificationModal({ isOpen, onClose }: UrgentNotif
                     Njoftim i Rëndësishëm
                   </h3>
                   <p className="text-gray-300 text-sm mb-4">🚀 Ne jemi live!
-                  Gjimnazi “Abdulla Keta” prezanton faqen e tij zyrtare — një hap drejt së ardhmes digjitale të shkollës sonë.
+                  Gjimnazi “Abdulla Keta” prezanton faqen e saj zyrtare — një hap drejt së ardhmes digjitale të shkollës sonë.
                   Zbuloni lajmet, eventet dhe shumë më tepër në një vend të vetëm.
                   💻 Krijuar me pasion nga Benard Pernezha.
                   </p>

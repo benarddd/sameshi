@@ -17,9 +17,9 @@ interface Event {
 
 export default function Kalendari() {
   const events: Event[] = [
-    { id: 1, title: "Fillimi i Semestrit të Ri", description: "Fillimi zyrtar i semestrit të dytë akademik", date: "2025-01-15", time: "08:00", location: "Të gjitha klasat", type: "academic" },
-    { id: 2, title: "Konkursi Kombëtar i Matematikës", description: "Konkursi vjetor kombëtar për nxënësit e shkollës së mesme", date: "2025-01-25", time: "09:00", location: "Salla Kryesore", type: "academic" },
-    { id: 3, title: "Dita e Pavarësisë", description: "Kremtimi i Ditës së Pavarësisë së Shqipërisë", date: "2025-11-28", time: "10:00", location: "Oborri i Shkollës", type: "holiday" },
+    { id: 1, title: "Tetori Roze", description: "Në kuadër të muajit të ndërgjegjësimit për kancerin e gjirit, Gjimnazi “Abdulla Keta” zhvilloi një aktivitet sensibilizues me moton “Kujdesi shpëton jetë!”.", date: "2025-10-1", time: "Zhvillohet gjate gjithe muajit", location: "Të gjitha klasat", type: "cultural" },
+    { id: 2, title: "Pavarësia e Shqipërisë ", description: "Gjimnazi “Abdulla Keta” zhvilloi një aktivitet festiv me rastin e 28 Nëntorit – Ditës së Pavarësisë së Shqipërisë.", date: "2025-11-28", time: "28 - 29 Nentor", location: "Ne shkolle", type: "meeting" },
+    //{ id: 3, title: "Dita e Pavarësisë", description: "Kremtimi i Ditës së Pavarësisë së Shqipërisë", date: "2025-11-28", time: "10:00", location: "Oborri i Shkollës", type: "holiday" },
   ];
 
   const getEventTypeColor = (type: EventType): string => {
