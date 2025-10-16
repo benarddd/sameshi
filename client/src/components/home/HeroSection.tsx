@@ -144,7 +144,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight leading-tight"
           >
-            Mirë se vini në{" "}
+            Gjimnazi{" "}
             <span className="relative inline-block">
               <motion.span 
                 className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent"
@@ -160,23 +160,7 @@ export default function HeroSection() {
                   backgroundSize: "200% auto",
                 }}
               >
-                Gjimnazin
-              </motion.span>
-              <br className="md:hidden" />
-              <motion.span 
-                className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-400 bg-clip-text text-transparent"
-                animate={{
-                  backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
-                }}
-                transition={{
-                  duration: 5,
-                  repeat: Infinity,
-                  ease: "linear"
-                }}
-                style={{
-                  backgroundSize: "200% auto",
-                }}
-              >
+                
                 {" "}Abdulla Keta
               </motion.span>
             </span>
@@ -221,9 +205,9 @@ export default function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { icon: Users, value: "500+", label: "Nxënës Aktivë", delay: 0.8 },
-              { icon: GraduationCap, value: "40+", label: "Mësues Profesionistë", delay: 0.9 },
-              { icon: Award, value: "25+", label: "Vite Përvojë", delay: 1.0 },
+              { icon: Users, value: "300+", label: "Nxënës Aktivë", delay: 0.8 },
+              { icon: GraduationCap, value: "10+", label: "Mësues Profesionistë", delay: 0.9 },
+              //{ icon: Award, value: "25+", label: "Vite Përvojë", delay: 1.0 },
             ].map((stat, index) => (
               <motion.div
                 key={index}
