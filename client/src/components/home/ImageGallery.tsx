@@ -13,10 +13,10 @@ export default function ImageGallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images: ImageItem[] = [
-    { id: 1, url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800", title: "Klasa Moderne" },
-    { id: 2, url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800", title: "Biblioteka" },
-    { id: 3, url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800", title: "Laboratori i Shkencës" },
-    { id: 4, url: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800", title: "Salla Sportive" },
+    { id: 1, url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=80", title: "Klasa Moderne" },
+    { id: 2, url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=80", title: "Biblioteka" },
+    { id: 3, url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=80", title: "Laboratori i Shkencës" },
+    { id: 4, url: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=80", title: "Salla Sportive" },
   ];
 
   const nextImage = () => {
