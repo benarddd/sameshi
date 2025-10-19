@@ -187,7 +187,7 @@ export default function Pavaresia28Nentor() {
             <div className="relative bg-black/50 backdrop-blur-2xl border border-red-500/20 rounded-3xl p-12 text-center">
               <div className="text-6xl text-yellow-400 mb-4">"</div>
               <p className="text-2xl md:text-3xl text-white font-light italic mb-6 leading-relaxed">
-                Era
+                Shqipëria është e lirë dhe e pavarur!
               </p>
               <div className="flex items-center justify-center gap-3">
                 <div className="h-px w-12 bg-gradient-to-r from-transparent to-red-500"></div>
