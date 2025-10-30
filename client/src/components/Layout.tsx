@@ -189,8 +189,8 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <GraduationCap className="w-6 h-6 text-white" />
               </motion.div>
               <div className="hidden sm:block">
-                <h1 className={`text-lg font-bold ${theme === "dark" ? "text-white" : "text-gray-900"} tracking-tight`}>Gjimnazi Abdulla Keta</h1>
-                <p className={`text-xs ${theme === "dark" ? "text-gray-400" : "text-gray-500"}`}>Shkollë e Mesme</p>
+                <h1 className={`text-lg font-bold ${theme === "dark" ? "text-white" : "text-gray-900"} tracking-tight`}>Gjimnazi</h1>
+                <p className={`text-xs ${theme === "dark" ? "text-gray-400" : "text-gray-500"}`}>Abdulla Keta</p>
               </div>
             </Link>
 

@@ -9,7 +9,7 @@ interface StaffMember {
 
 export default function StaffPreview() {
   const staff: StaffMember[] = [
-    { id: 1, full_name: "Arben Hoxha", position: "Drejtor", subject: "Matematikë" },
+    { id: 1, full_name: "Ardita Gjini", position: "Drejtoresha", subject: "Filozofi" },
     { id: 2, full_name: "Elira Mara", position: "Zëvendës Drejtor", subject: "Fizikë" },
     { id: 3, full_name: "Mirela Kola", position: "Mësuese", subject: "Gjuhë Shqipe" },
     { id: 4, full_name: "Luljeta Dervishi", position: "Mësuese", subject: "Gjuhë Angleze" },
