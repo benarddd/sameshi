@@ -29,7 +29,10 @@ export default function Klube() {
   
   const clubs: Club[] = [
     //{ id: 1, name: "Klubi i Futbollit", description: "Trajnime dhe ndeshje të rregullta, pjesëmarrje në turne lokale dhe kombëtare", category: "sports", meeting_schedule: "E Hënë, E Mërkurë, E Premte 15:00-17:00", location: "Fusha Sportive", coordinator: "Prof. Alban Gashi", member_count: 25 },
-    { id: 2, name: "Klubi Art dhe Zeje", description: "Piktura dhe arte. Organizimi i ekspozitave dhe konkurseve artistike", category: "arts", meeting_schedule: "Ne proces ", location: "Salla e Arteve", coordinator: "Ms. Vetetima Prendi", member_count: 0 },
+    { id: 2, name: "Klubi Art dhe Zeje", description: "Projekti “Art dhe Zeje” Shkolla jone përfshin dy fusha kryesore: pikturën dhe punimet me dorë (rruaza, thurje, qepje, riciklime te materialeve te ndryshme)
+Në fushën e pikturës, nxënësit punojnë me teknika të ndryshme — nga vizatimi me laps e bojëra uji, deri te pikturat në kanavacë apo në materiale të riciklueshme. Çdo temë lidhet me natyrën, jetën e përditshme, festat dhe vlerat kulturore.
+Në fushën e punimeve me rruaza dhe thurje, nxënësit mësojnë teknika të thjeshta, duke krijuar bizhuteri, figura dekorative, punime për dhurata apo zbukurime për ambiente shkollore. 
+Gjatë gjithë periudhës së projektit, nxënësit do te punojnë në grupe, duke ndare ide dhe ndihmojnë njëri-tjetrin, duke e kthyer artin në një mënyrë të bukur për të mësuar dhe bashkëpunuar. Në përfundim të vitit do te realizohet një ekspozitë me krijimet e tyre, ku prindërit dhe komuniteti shkollor mund të shohin frytet e punës dhe pasionit të tyre.", category: "arts", meeting_schedule: "Ne proces ", location: "Salla e Arteve", coordinator: "Ms. Vetetima Prendi", member_count: 0 },
     //{ id: 3, name: "Klubi i Shkencave", description: "Eksperimente shkencore, projekte kërkimore dhe pjesëmarrje në panairin shkencor", category: "science", meeting_schedule: "E Mërkurë 15:00-17:00", location: "Laboratori i Shkencave", coordinator: "Prof. Elira Mara", member_count: 22 },
     //{ id: 4, name: "Klubi i Teknologjisë", description: "Programim, robotikë dhe zhvillim i projekteve teknologjike novatore", category: "technology", meeting_schedule: "E Premte 15:00-18:00", location: "Laboratori i Kompjuterit", coordinator: "Prof. Arben Hoxha", member_count: 30 },
   ];
