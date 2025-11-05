@@ -30,7 +30,7 @@ export default function Biblioteka() {
     //{ id: 1, title: "Historia e Shqipërisë", author: "Kristo Frashëri", category: "history", description: "Vështrim i plotë historik i Shqipërisë nga lashtësia deri në kohën moderne", pages: 450, language: "Albanian" },
     //{ id: 2, title: "Matematika për të Gjithë", author: "Agim Hoxha", category: "textbook", description: "Libër mësimor për matematikën e shkollës së mesme", pages: 320, language: "Albanian" },
     //{ id: 3, title: "Letërsia Shqiptare Moderne", author: "Rexhep Qosja", category: "literature", description: "Studim i thellë i letërsisë shqiptare të shekullit 20", pages: 580, language: "Albanian" },
-    //{ id: 4, title: "Fizika Themelore", author: "Elira Mara", category: "science", description: "Koncepte bazë të fizikës për nxënësit e shkollës së mesme", pages: 280, language: "Albanian" },
+    { id: 4, title: "Fizika Themelore", author: "Elira Mara", category: "science", description: "Koncepte bazë të fizikës për nxënësit e shkollës së mesme", pages: 280, language: "Albanian" },
   ];
 
   const filteredBooks = books.filter(book => {
